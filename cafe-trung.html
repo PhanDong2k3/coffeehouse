@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Coffee House</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="img/logo.png" rel="icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Messenger Plugin chat Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Plugin chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+        var chatbox = document.getElementById('fb-customer-chat');
+        chatbox.setAttribute("page_id", "105404452336925");
+        chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                xfbml: true,
+                version: 'v15.0'
+            });
+        };
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-primary py-3 d-none d-md-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-lg-left mb-2 mb-lg-0">
+                    <div class="d-inline-flex align-items-center">
+                        <p class="text-white pr-3">Chào mừng bạn đến với Coffee House !</p>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center text-lg-right">
+                    <div class="d-inline-flex align-items-center">
+                        <a class="text-white px-3" href="">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="text-white px-3" href="">
+                            <i class="fab fa-facebook-messenger"></i>
+                        </a>
+                        <a class="text-white px-3" href="">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="text-white px-3" href="">
+                            <i class="fab fa-discord"></i>
+                        </a>
+                        <a class="text-white pl-3" href="">
+                            </i><i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid position-relative nav-bar p-0">
+        <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light shadow p-lg-0">
+                <a href="index.html" class="navbar-brand d-block d-lg-none">
+                    <h1 class="m-0 display-4 text-primary"><img src="./img/logo.png" alt="" width="50"></h1>
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto py-0">
+                        <a href="index.html" class="nav-item nav-link">Trang chủ</a>
+                        <a href="gioithieu.html" class="nav-item nav-link">Giới thiệu</a>
+                        <a href="sanpham.html" class="nav-item nav-link active">Sản phẩm</a>
+                    </div>
+                    <a href="index.html" class="navbar-brand mx-5 d-none d-lg-block">
+                        <h1 class="m-0 display-4 text-primary"><img src="./img/logo.png" alt="" width="70"></h1>
+                    </a>
+                    <div class="navbar-nav mr-auto py-0">
+                        <a href="dichvu.html" class="nav-item nav-link">Dịch vụ</a>
+                        <a href="tintuc.html" class="nav-item nav-link">Tin tức</a>
+                        <a href="lienhe.html" class="nav-item nav-link">Liên hệ</a>
+                        <div class="cartgroup">
+                            <a href=""><i class="fas fa-search"></i></a>
+                            <span>|</span>
+                            <a href="sanpham.html"><i class="fa fa-shopping-bag"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Content Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-7">
+                    <h1 class="section-title position-relative text-center mb-5"></h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4" style="bottom: 70px; text-align:center">
+                    <img src="img/cafetrung tachnen.png" alt="" style="max-width: 100%;">
+                </div>
+                <div class="col-lg-4">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <h4 class="font-weight-bold mb-3">
+                        Cà phê trứng<p style="color: #e7b45a ;">50.000đ</p>
+                    </h4>
+                    <p><b>Thông tin:</b></p>
+                    <p>Đang cập nhật</p>
+                    <a href="" class="btn btn-primary mt-2">ĐẶT NGAY</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Content End -->
+    <hr  width="60%" style="align-items: center;">
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <h1 class="section-title position-relative text-center mb-5">CÀ PHÊ CÙNG LOẠI</h1>
+                </div>
+            </div>
+            <div class="row" style="text-align:center">
+                <div class="col-lg-3 col-md-6 mb-4 pb-2">
+                    <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+                        <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                            <h4 class="font-weight-bold text-white mb-0">50k</h4>
+                        </div>
+                        <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3"
+                            style="width: 150px; height: 150px;">
+                            <img class="rounded-circle w-100 h-100" src="img/cafetrung.png" style="object-fit: cover;">
+                        </div>
+                        <h5 class="font-weight-bold mb-4">Cà phê trứng</h5>
+                        <a href="cafe-trung.html" class="btn btn-sm btn-secondary">ĐẶT NGAY</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 pb-2">
+                    <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+                        <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                            <h4 class="font-weight-bold text-white mb-0">50k</h4>
+                        </div>
+                        <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3"
+                            style="width: 150px; height: 150px;">
+                            <img class="rounded-circle w-100 h-100" src="img/cafeden.png" style="object-fit: cover;">
+                        </div>
+                        <h5 class="font-weight-bold mb-4">Cà phê đen</h5>
+                        <a href="" class="btn btn-sm btn-secondary">ĐẶT NGAY</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 pb-2">
+                    <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+                        <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                            <h4 class="font-weight-bold text-white mb-0">50k</h4>
+                        </div>
+                        <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3"
+                            style="width: 150px; height: 150px;">
+                            <img class="rounded-circle w-100 h-100" src="img/cafesua.png" style="object-fit: cover;">
+                        </div>
+                        <h5 class="font-weight-bold mb-4">Cà phê sữa</h5>
+                        <a href="" class="btn btn-sm btn-secondary">ĐẶT NGAY</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4 pb-2">
+                    <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+                        <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                            <h4 class="font-weight-bold text-white mb-0">50k</h4>
+                        </div>
+                        <div class="position-relative bg-primary rounded-circle mt-n3 mb-4 p-3"
+                            style="width: 150px; height: 150px;">
+                            <img class="rounded-circle w-100 h-100" src="img/Mojto Presso.png"
+                                style="object-fit: cover;">
+                        </div>
+                        <h5 class="font-weight-bold mb-4">Cà phê Mojto Presso</h5>
+                        <a href="" class="btn btn-sm btn-secondary">ĐẶT NGAY</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <h4 class="font-weight-bold mb-3">Mô tả sản phẩm</h4>
+            <p>Cà phê Trứng được chọn lọc kỹ lưỡng từ vùng đất đỏ bazan Buôn Mê Thuột; sau đó trải qua quá trình sàng lọc, rang xay dưới sự kiểm soát nghiêm ngặt về nhiệt độ và thời gian để đạt đến đỉnh cao của mùi thơm, độ nở và hương vị riêng biệt. Sự hài hòa trong tỷ lệ pha trộn giữa hạt cà phê Robusta và Arabica mang đến cho khách hàng những ly cà phê pha máy – kiểu Ý nhưng vẫn đậm đà bản sắc và đặc trưng của văn hóa nước Việt Nam.</p>
+            
+        </div>
+    </div>
+    <!-- Footer Start -->
+    <div class="container-fluid footer bg-light py-5" style="margin-top: 90px;">
+        <div class="container text-center py-5">
+            <div class="row">
+                <div class="col-12 mb-4">
+                    <a href="index.html" class="navbar-brand m-0">
+                        <h1 class="m-0 display-4 text-primary"><img src="./img/logo.png" alt=""width="100"></h1>
+                    </a>
+                </div>
+                <div class="col-12 mb-4">
+                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-discord"></i></a>
+                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-outline-secondary btn-social" href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+                <div class="col-12 mt-2 mb-4">
+                    <div class="row">
+                        <div class="col-sm-6 text-center text-sm-right border-right mb-3 mb-sm-0">
+                            <h5 class="font-weight-bold mb-2">Địa chỉ</h5>
+                            <p class="mb-2">182 Lê Duẩn, Bến Thủy, Thành phố Vinh, Nghệ An</p>
+                            <p class="mb-0">0779 555 168</p>
+                        </div>
+                        <div class="col-sm-6 text-center text-sm-left">
+                            <h5 class="font-weight-bold mb-2">Giờ mở cửa</h5>
+                            <p class="mb-2">7h - 22h</p>
+                            <p class="mb-0">Hằng ngày</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
+    
